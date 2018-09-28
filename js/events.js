@@ -17,7 +17,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').load(function(){
+  $('img').addEventListener("load", function(){
     alert("loaded!");
   });
 }
