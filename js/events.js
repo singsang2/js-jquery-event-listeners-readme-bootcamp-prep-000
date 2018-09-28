@@ -18,7 +18,7 @@ function getIt(){
 
 function frameIt(){
   $('img').on('load', function(){
-    alert("loaded!");
+    console.log("loaded!");
   });
 }
 
