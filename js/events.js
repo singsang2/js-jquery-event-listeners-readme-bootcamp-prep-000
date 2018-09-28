@@ -17,7 +17,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on("load", function(){
+  $('#minion').on("load", function(){
     $('img').addClass("tasty");
   });
 }
