@@ -15,7 +15,7 @@ function getIt(){
 
 function frameIt(){
   $('img').on('load', function(){
-    $('img').get
+    $('img').classList.add()
   })
 }
 
